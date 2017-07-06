@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
     <title style="font-family: Cambria;">Bria Deadwiler</title>
-<div style="background-color:black;color:white;padding:20px;">
+<div style="background-color:#333;color:white;padding:20px;">
     <h1 style="text-align:center;">HOME PAGE</h1>
 </div>
     
 <body style="background-color:powderblue;">
 
+<head>
 <style>
 ul {
     list-style-type: none;
-    style="background-color:black;color:white;padding:20px;"
     margin: 0;
     padding: 0;
-}
-ul {
-    border: 1px solid #555;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-    text-align: center;
-    border-bottom: 1px solid #555;
+    float: left;
 }
 
-li:last-child {
-    border-bottom: none;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 </style>
+</head>
+<body>
+
 <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="works.asp">Projects</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  
 </ul>
-
 <center>
      <img src="https://mail.google.com/mail/u/1/?ui=2&ik=a436d3c8e1&view=att&th=15cb953da633a84a&attid=0.1&disp=safe&zw" width=300/>
 </center> 
@@ -48,6 +61,7 @@ li:last-child {
   <p style="text-align:center;">My name is Bria C. Deadwiler. I am 15 years old and was born on September 18th 2001. I am an incoming junior in at James Logan High School. I currently cheer and participate in Track and Field. In track and field I long and tripple jump.</p> 
 </article>
 </div>
+ 
  
  <div style="float:left; width:35%">
    <center> <h3 style="font-family: Cambria;">Likes and Dislikes:</h3></center>
@@ -64,9 +78,9 @@ li:last-child {
 <div style="float:left; width:30%">      
     <h3>Three Fun Facts:</h3>
     <p>
-    -I enjoy playing volleyball.
-    -I would like to go to New York.
-    -I love junior mints.
+    -I enjoy playing volleyball.<br>
+    -I would like to go to New York.<br>
+    -I love junior mints.<br>
     </p> 
  </div>  
  
